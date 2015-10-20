@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 declared-services:
-  service_discovery:
-    label: sp_service_discovery
+  sp_service_discovery:
+    label: service_discovery
     plan:  free
 applications:
 - name: sp_bridge_app
