@@ -18,6 +18,6 @@ declared-services:
     label: service_discovery
     plan:  free
 applications:
-- name: sp_bridge_app
+- name: spbridgeapp
   services:
   - sp_service_discovery
